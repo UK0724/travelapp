@@ -1,0 +1,71 @@
+.NavFooter{
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Nav-logo{
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181E4B;
+}
+
+.Navfooter-des{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 207px; 
+    color: #5E6282;  
+}
+.head{
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.Navfooter-content{
+    margin-top: 20px;
+}
+.Navfooter-content>div{
+    padding-bottom: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5E6282;    
+}
+
+.socialmeadia-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.social-des{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #5E6282;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
+.Topselling{
+    margin-top: 200px;
+    position: relative;
+}
+.TopSelling-title{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5E6282;
+}
+.destinationa{
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.item1{
+    width: 314px;
+    height: 400px;
+    background-image: url("./trip1.png");
+    background-size: 100% 100%  ;
+}
+.item2{
+    width: 314px;
+    height: 400px;
+    background-image: url("./trip2.png");
+    background-size: 100% 100%  ;
+}
+.item3{
+    width: 314px;
+    height: 400px;
+    background-image: url("./trip3.png");
+    background-size: 100% 100%  ;
+    background-repeat: no-repeat;
+}
+.destination-tips{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item1,.item2,.item3{ 
+    position: relative;
+}
+
+.price-content{
+    background-color: white;
+    height: 130px;
+    width: 305px;
+    position: relative;
+    top: 280px;
+    left: 5px;
+    box-shadow: 0px 1px 8px #888888;
+    border-radius: 5px;
+}
+
+.country-price{
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5E6282;
+}
+.days{
+    padding-left: 8px;
+    padding-top: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;  
+}
+
+.telegram-icon{
+    padding-right: 10px;
+}
+
+.spiral{
+    background-image: url("./spiral.png");
+    height: 252px;
+    width: 96px;
+    border-radius: 0px;
+    background-size: 100%;
+    position: absolute;
+    top: -130px;
+    right: -70px;
+}
+.spiral-parent{
+    position: relative;
+}

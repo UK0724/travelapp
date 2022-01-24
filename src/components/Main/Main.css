@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
+.Hero{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.des{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#DF6951;
+    
+}
+.left>div{
+    margin-bottom: 50px;
+}
+
+.travel{
+font-family: Volkhov;
+font-size: 84px;
+font-style: normal;
+font-weight: 700;
+line-height: 89px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #181E4B;
+height: 267px;
+width: 545px;
+}
+
+.sports{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left; 
+    height: 90px;
+    width: 477px;
+    color: #5E6282;
+}
+
+.Find-btn{
+    background-color: #F1A501;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+}
+.bottom-button>span{
+    padding-left: 30px;
+}
+.play{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    color: white;
+    background-color: #DF6951;
+}
+
+.bottom-button>button{
+    font-family: Google Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.play-des{
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.right{
+    background-image: url("./travelimg.png");
+    background-position: 50px;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    right: 80px;
+    top: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.underline{
+    position: absolute;
+    height:2px;
+    width: 200px;
+    background-color: #DF6951;
+    top:4.1em;
+    left: 4.5em;
+}
+.underline1{
+    position: absolute;
+    height:2px;
+    width: 200px;
+    background-color: #DF6951;
+    top:4.11em;
+    left: 4.5em;
+}
+.underline2{
+    position: absolute;
+    height:2px;
+    width: 200px;
+    background-color: #DF6951;
+    top:4.12em;
+    left: 4.6em;
+}
+.underline3{
+    position: absolute;
+    height:2px;
+    width: 200px;
+    background-color: #DF6951;
+    top:4.13em;
+    left: 4.7em;
+}
+.underline4{
+    position: absolute;
+    height:2px;
+    width: 200px;
+    background-color: #DF6951;
+    top:4.14em;
+    left: 4.8em;
+}
+
+.enjoy{
+    position: relative;
+}
+

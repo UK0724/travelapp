@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
+.Easyandfast{
+    margin-top: 200px;
+    margin-left: 230px;
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.easy-title{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em; 
+    color: #5E6282;
+}
+
+.easy-book{
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #14183E;
+    height: 130px;
+    width: 511px;   
+}
+
+.graph-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #F0BB1F;
+    border-radius: 10px;
+
+}
+.left-easy{
+    width: 60%;
+}
+.left-easy>div{
+    margin-bottom: 30px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.payment-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #F15A2B;
+    border-radius: 10px;
+}
+
+.car-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #006380;
+    border-radius: 10px;
+}
+.graph-icon>img,.payment-icon>img,.car-icon>img{
+    height: 30px;
+    width: 35px;
+    text-align: center;
+}
+
+.graph-title,.payment-title,.car-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 124.5%;
+    color: #5E6282;   
+}
+.graph-content,.payment-content,.car-content{
+    width: 327px;
+    height: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 124.5%;  
+    color: #5E6282;  
+}
+
+.Trip-card{
+    box-shadow: 30px -30px 10px 0px rgba(89, 177, 230,0.2);
+    height: 400px;
+    width: 370px;
+    border-radius: 26px;    
+    position: relative;
+    top: 130px;
+}
+.Trip-card>div>img{
+    border-radius: 24px;
+    margin: 10px 10px 10px 15px;
+    width: 90%;
+}
+.trip-title{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #080809;
+    padding-left: 15px;    
+}
+
+.month-name{
+    padding-left: 15px;
+    padding-top: 5px;
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    text-align: left;    
+    color: #84829A;
+}
+
+.Three-icons{
+    display: flex;
+    padding-left: 15px;
+    justify-content: space-between;
+    width: 40%;
+}
+.trip-content>div{
+    margin-bottom: 15px;
+}
+
+.trip-footer{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.analys{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.hear-icon{
+    margin-right: 15px;
+}
+.temple{
+    border-radius: 50%;
+    
+}
+.sub-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    box-shadow: 0px 1px 8px #888888;
+    position: absolute;
+    left: 200px;
+    bottom: 70px;
+    z-index: 1;
+    background-color: white;
+}
+.ongoing{
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #84829A;
+}
+
+.triptorom{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #080809;    
+}
+.percent{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 124.5%;
+    letter-spacing: -0.055em;
+    color: #8A79DF;
+}
+.line{
+    width:50px;
+    background-color: #8A79DF;
+}
+
+@media all and (max-width:1200px){
+    .Easyandfast{
+        flex-direction: column;
+    }
+}
+
+.Three-icons{
+    color: #dfdef1;
+    margin: 40px 0px;
+}
+
+.trip-footer{
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left; 
+    color: #84829A;   
+}
+@media (max-width: 800px) {
+    .Easyandfast{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 0%;
+    }
+}

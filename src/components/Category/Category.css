@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
+.Category{
+    margin-top: 300px;
+    margin-left:100px;
+}
+.category-title{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5E6282;
+}
+.category-offer{
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 100px;   
+    color: #14183E;
+}
+
+.orangec{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-color: #DF6951;
+    border-radius: 30px 0px 10px;
+    left: 560px;
+    bottom: -660px;
+    z-index: -1;
+}
+
+
+
+.category-icons{
+    margin-top: 20px;
+}
+
+.item{
+    height: 314px;
+    width: 267px;
+    border-radius: 36px;  
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.icons{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icons>img{
+    width:71px;
+    height:71px;
+}
+
+.category-head{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1D4C;
+    margin-bottom: 10px;
+}
+
+.category-des{
+    margin-left: 40px;
+    height: 78px;
+    width: 181px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;        
+}
+.colered{
+    z-index: 1;
+    background-color: white;
+    border: 2px solid #888888;
+    position: relative;  
+}
+
+.div1{
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    right: 60px;
+    top: 50px;
+    z-index: -1;
+    background: #FFF1DA;
+    border-radius: 18px 5px 10px;
+    transform: rotate(-180deg);
+}
+
+.div2{
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    left: 100px;
+    top: 50px;
+    background: #FFF1DA;
+    border-radius: 18px 5px 10px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: -1;
+}
+.div3{
+    z-index: -1;
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    right: 60px;
+    top: 30px;
+    background: #FFF1DA;
+    border-radius: 18px 5px 10px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.div4{
+    z-index: -1;
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    right: 60px;
+    top: 50px; 
+    background: #FFF1DA;
+    border-radius: 18px 5px 10px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
